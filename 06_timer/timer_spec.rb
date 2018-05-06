@@ -14,7 +14,7 @@ describe "Timer" do
     @timer = Timer.new
   end
 
-  it "should initialize to 0 seconds" do
+ it "should initialize to 0 seconds" do
     expect(@timer.seconds).to eq(0)
   end
 
